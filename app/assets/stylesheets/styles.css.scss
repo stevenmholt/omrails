@@ -1,0 +1,24 @@
+/* We can change the font using tons of Google Web Fonts fo FREE! */
+/*
+	$baseFontFamily: Roboto;
+	@import url(http://fonts.googleapis.com/css?family=Roboto:400,500,700);
+*/
+
+$navbarBackgroundHighlight: white;
+$navbarBackground: #99cc33;
+
+@import 'bootstrap';
+
+body {
+	padding-top: 60px;
+}
+
+@import 'bootstrap-responsive';
+
+.footer {
+	margin-top: 50px;
+	color: $grayLight;
+	a { 
+		color: $gray;
+	}
+}
